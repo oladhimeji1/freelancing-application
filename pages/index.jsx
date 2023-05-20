@@ -19,7 +19,7 @@ export default function Home() {
       <meta name='keywords' content='Freelance freelancing oladhimeji' />
       <meta name='author' content='Oladhimeji' />
     </Head>
-    <div>
+    <div className=' w-[100vw]'>
     
     {/* <Carousel autoSlide={true}>
       {slides.map(slide=>{
