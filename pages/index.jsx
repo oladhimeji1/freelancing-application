@@ -19,7 +19,7 @@ export default function Home() {
       <meta name='keywords' content='Freelance freelancing oladhimeji' />
       <meta name='author' content='Oladhimeji' />
     </Head>
-    <div className=' w-[100vw]'>
+    <div className=' xs:w-[100vw]'>
     
     {/* <Carousel autoSlide={true}>
       {slides.map(slide=>{
@@ -28,7 +28,7 @@ export default function Home() {
     </Carousel> */}
 
       {/* Hero */}
-      <div className="h-[100vh] w-[100vw] bg-black relative">
+      <div className="h-[100vh] xs:w-[100vw] bg-black relative">
         <Image className='h-full static top-0 opacity-30 object-cover w-full' src={comp}></Image>
         <h1 className="font-bold absolute text-orange-500 uppercase bottom-32 left-10 md:text-4xl text-3xl">Connect. Hire. Earn</h1>
         <button className="absolute text-white md:bottom-20 bottom-[5.5rem] hover:translate-x-2 left-10 bg-orange-500 p-1 md:p-2 rounded-md md:font-bold"><a href='/signup'>Get Started</a></button>
